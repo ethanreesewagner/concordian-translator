@@ -63,6 +63,10 @@ const DICTIONARY_ENTRIES: [string, string][] = [
   ["we", "Mi"],
   ["am", "Amm"],
   ["have", "Amm"],
+  ["bug", "Kamar"],
+  ["bedroom", "Mastoor batoor"],
+  ["room","Mastoor"],
+  ["bed","batoor"],
 
   // People & relationships
   ["friend", "Sir"],
