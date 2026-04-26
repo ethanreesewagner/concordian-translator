@@ -1,0 +1,255 @@
+
+> concordian-translator@0.1.0 start
+> next start
+
+  ▲ Next.js 14.2.3
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 174ms
+(node:59663) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Translation error: tT [Error]: 429 Too many requests. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+
+    at tc.generate (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:29920)
+    at d5.makeStatusError (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:44275)
+    at d5.makeRequest (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:45219)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ii (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:5:38035)
+    at async /Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:34666
+    at async eS.execute (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:25813)
+    at async eS.handle (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:35920)
+    at async doRender (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1377:42)
+    at async cacheEntry.responseCache.get.routeKind (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1599:28) {
+  status: 429,
+  headers: {
+    'azureml-served-by-cluster': 'vienna-westus-02',
+    'content-length': '196',
+    'content-type': 'application/json; charset=utf-8',
+    date: 'Sun, 26 Apr 2026 02:35:20 GMT',
+    'request-context': 'appId=',
+    'retry-after': '83939',
+    server: 'github.com',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-github-backend': 'Kubernetes',
+    'x-github-request-id': 'F2C7:341C55:8ACE45A:A2A3BA7:69ED79E7',
+    'x-ms-error-code': 'RateLimitReached',
+    'x-ratelimit-timeremaining': '83939',
+    'x-ratelimit-type': 'UserByModelByDay',
+    'x-request-time': '0.077'
+  },
+  request_id: undefined,
+  error: undefined,
+  code: undefined,
+  param: undefined,
+  type: undefined
+}
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Translation error: tT [Error]: 429 Too many requests. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+
+    at tc.generate (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:29920)
+    at d5.makeStatusError (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:44275)
+    at d5.makeRequest (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:45219)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ii (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:5:38035)
+    at async /Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:34666
+    at async eS.execute (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:25813)
+    at async eS.handle (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:35920)
+    at async doRender (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1377:42)
+    at async cacheEntry.responseCache.get.routeKind (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1599:28) {
+  status: 429,
+  headers: {
+    'azureml-served-by-cluster': 'vienna-westus-01',
+    'content-length': '196',
+    'content-type': 'application/json; charset=utf-8',
+    date: 'Sun, 26 Apr 2026 02:57:41 GMT',
+    'request-context': 'appId=',
+    'retry-after': '82598',
+    server: 'github.com',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-github-backend': 'Kubernetes',
+    'x-github-request-id': 'F54B:1E38E8:510C3DA:62A2B6D:69ED7F24',
+    'x-ms-error-code': 'RateLimitReached',
+    'x-ratelimit-timeremaining': '82598',
+    'x-ratelimit-type': 'UserByModelByDay',
+    'x-request-time': '0.073'
+  },
+  request_id: undefined,
+  error: undefined,
+  code: undefined,
+  param: undefined,
+  type: undefined
+}
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Translation error: tT [Error]: 429 Too many requests. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+
+    at tc.generate (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:29920)
+    at d5.makeStatusError (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:44275)
+    at d5.makeRequest (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:45219)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ii (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:5:38035)
+    at async /Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:34666
+    at async eS.execute (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:25813)
+    at async eS.handle (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:35920)
+    at async doRender (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1377:42)
+    at async cacheEntry.responseCache.get.routeKind (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1599:28) {
+  status: 429,
+  headers: {
+    'azureml-served-by-cluster': 'vienna-westus-02',
+    'content-length': '196',
+    'content-type': 'application/json; charset=utf-8',
+    date: 'Sun, 26 Apr 2026 03:43:18 GMT',
+    'request-context': 'appId=',
+    'retry-after': '79861',
+    server: 'github.com',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-github-backend': 'Kubernetes',
+    'x-github-request-id': 'FB58:33213A:21E1CF:2DB004:69ED89D5',
+    'x-ms-error-code': 'RateLimitReached',
+    'x-ratelimit-timeremaining': '79861',
+    'x-ratelimit-type': 'UserByModelByDay',
+    'x-request-time': '0.088'
+  },
+  request_id: undefined,
+  error: undefined,
+  code: undefined,
+  param: undefined,
+  type: undefined
+}
+ ⨯ Error: Cannot find module '/Users/wowagner/concordian translator/.next/server/app/_not-found/page.js'
+Require stack:
+- /Users/wowagner/concordian translator/node_modules/next/dist/server/require.js
+- /Users/wowagner/concordian translator/node_modules/next/dist/server/next-server.js
+- /Users/wowagner/concordian translator/node_modules/next/dist/server/next.js
+- /Users/wowagner/concordian translator/node_modules/next/dist/server/lib/start-server.js
+- /Users/wowagner/concordian translator/node_modules/next/dist/cli/next-start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1248:15)
+    at /Users/wowagner/concordian translator/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:1074:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at mod.require (/Users/wowagner/concordian translator/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:125:16)
+    at requirePage (/Users/wowagner/concordian translator/node_modules/next/dist/server/require.js:109:84)
+    at /Users/wowagner/concordian translator/node_modules/next/dist/server/load-components.js:98:84 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/wowagner/concordian translator/node_modules/next/dist/server/require.js',
+    '/Users/wowagner/concordian translator/node_modules/next/dist/server/next-server.js',
+    '/Users/wowagner/concordian translator/node_modules/next/dist/server/next.js',
+    '/Users/wowagner/concordian translator/node_modules/next/dist/server/lib/start-server.js',
+    '/Users/wowagner/concordian translator/node_modules/next/dist/cli/next-start.js'
+  ]
+}
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Translation error: tT [Error]: 429 Too many requests. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+
+    at tc.generate (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:29920)
+    at d5.makeStatusError (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:44275)
+    at d5.makeRequest (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:1:45219)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ii (/Users/wowagner/concordian translator/.next/server/app/api/translate/route.js:5:38035)
+    at async /Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:34666
+    at async eS.execute (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:25813)
+    at async eS.handle (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:35920)
+    at async doRender (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1377:42)
+    at async cacheEntry.responseCache.get.routeKind (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1599:28) {
+  status: 429,
+  headers: {
+    'azureml-served-by-cluster': 'vienna-westus-02',
+    'content-length': '196',
+    'content-type': 'application/json; charset=utf-8',
+    date: 'Sun, 26 Apr 2026 03:50:35 GMT',
+    'request-context': 'appId=',
+    'retry-after': '79424',
+    server: 'github.com',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-github-backend': 'Kubernetes',
+    'x-github-request-id': 'FCD0:1EB7:4C7B7EF:5D91F91:69ED8B8A',
+    'x-ms-error-code': 'RateLimitReached',
+    'x-ratelimit-timeremaining': '79424',
+    'x-ratelimit-type': 'UserByModelByDay',
+    'x-request-time': '0.080'
+  },
+  request_id: undefined,
+  error: undefined,
+  code: undefined,
+  param: undefined,
+  type: undefined
+}

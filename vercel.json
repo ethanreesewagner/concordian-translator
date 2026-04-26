@@ -1,0 +1,6 @@
+{
+  "name": "concordian-translator",
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "installCommand": "npm install"
+}

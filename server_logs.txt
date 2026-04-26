@@ -1,0 +1,190 @@
+
+> concordian-translator@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.3
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 1477ms
+ ✓ Compiled /api/translate in 432ms (192 modules)
+(node:59097) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 3171ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2s (664 modules)
+ GET / 200 in 2153ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 2312ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 2231ms
+ GET / 200 in 66ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 1961ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 2349ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 1772ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 2017ms
+ GET / 200 in 21ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 2110ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 1902ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 1638ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 1503ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 1386ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Translation error: BadRequestError: 400 The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766
+    at APIError.generate (webpack-internal:///(rsc)/./node_modules/openai/error.mjs:60:20)
+    at OpenAI.makeStatusError (webpack-internal:///(rsc)/./node_modules/openai/core.mjs:333:65)
+    at OpenAI.makeRequest (webpack-internal:///(rsc)/./node_modules/openai/core.mjs:377:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async POST (webpack-internal:///(rsc)/./app/api/translate/route.ts:29:26)
+    at async /Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:53446
+    at async e_.execute (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:44747)
+    at async e_.handle (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:54700)
+    at async doRender (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1377:42)
+    at async cacheEntry.responseCache.get.routeKind (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1599:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1507:28)
+    at async DevServer.renderPageComponent (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/wowagner/concordian translator/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/wowagner/concordian translator/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/wowagner/concordian translator/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/wowagner/concordian translator/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/wowagner/concordian translator/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/wowagner/concordian translator/node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/wowagner/concordian translator/node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/wowagner/concordian translator/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  status: 400,
+  headers: {
+    'apim-request-id': 'c45fa425-3aee-4215-9169-7f15cccdb7f8',
+    'azureml-served-by-cluster': 'vienna-westus-01',
+    'content-length': '668',
+    'content-type': 'application/json',
+    date: 'Sun, 26 Apr 2026 01:58:31 GMT',
+    'request-context': 'appId=',
+    server: 'github.com',
+    'skip-error-remapping': 'true',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-github-backend': 'Kubernetes',
+    'x-github-request-id': 'ED9E:34A59D:187C579:1FAB2AD:69ED7143',
+    'x-ms-client-request-id': 'Not-Set',
+    'x-ms-deployment-name': 'gpt-4o-mini',
+    'x-ms-rai-invoked': 'true',
+    'x-ms-region': 'East US',
+    'x-request-time': '1.283'
+  },
+  request_id: undefined,
+  error: {
+    message: "The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766",
+    type: null,
+    param: 'prompt',
+    code: 'content_filter',
+    status: 400,
+    innererror: {
+      code: 'ResponsibleAIPolicyViolation',
+      content_filter_result: [Object]
+    }
+  },
+  code: 'content_filter',
+  param: 'prompt',
+  type: null
+}
+ POST /api/translate 500 in 1490ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+Translation error: BadRequestError: 400 The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766
+    at APIError.generate (webpack-internal:///(rsc)/./node_modules/openai/error.mjs:60:20)
+    at OpenAI.makeStatusError (webpack-internal:///(rsc)/./node_modules/openai/core.mjs:333:65)
+    at OpenAI.makeRequest (webpack-internal:///(rsc)/./node_modules/openai/core.mjs:377:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async POST (webpack-internal:///(rsc)/./app/api/translate/route.ts:29:26)
+    at async /Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:53446
+    at async e_.execute (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:44747)
+    at async e_.handle (/Users/wowagner/concordian translator/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:54700)
+    at async doRender (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1377:42)
+    at async cacheEntry.responseCache.get.routeKind (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1599:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1507:28)
+    at async DevServer.renderPageComponent (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/wowagner/concordian translator/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/wowagner/concordian translator/node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/wowagner/concordian translator/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/wowagner/concordian translator/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/wowagner/concordian translator/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/wowagner/concordian translator/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/wowagner/concordian translator/node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/wowagner/concordian translator/node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/wowagner/concordian translator/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  status: 400,
+  headers: {
+    'apim-request-id': '23905aba-20d6-4191-958c-94902b2ee85b',
+    'azureml-served-by-cluster': 'vienna-westus-02',
+    'content-length': '668',
+    'content-type': 'application/json',
+    date: 'Sun, 26 Apr 2026 01:58:39 GMT',
+    'request-context': 'appId=',
+    server: 'github.com',
+    'skip-error-remapping': 'true',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-github-backend': 'Kubernetes',
+    'x-github-request-id': 'EDA4:5ADDE:19105CA:203DB69:69ED714E',
+    'x-ms-client-request-id': 'Not-Set',
+    'x-ms-deployment-name': 'gpt-4o-mini',
+    'x-ms-rai-invoked': 'true',
+    'x-ms-region': 'East US',
+    'x-request-time': '1.130'
+  },
+  request_id: undefined,
+  error: {
+    message: "The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766",
+    type: null,
+    param: 'prompt',
+    code: 'content_filter',
+    status: 400,
+    innererror: {
+      code: 'ResponsibleAIPolicyViolation',
+      content_filter_result: [Object]
+    }
+  },
+  code: 'content_filter',
+  param: 'prompt',
+  type: null
+}
+ POST /api/translate 500 in 1723ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 1604ms
+Using API Key: github_pat...
+Using Endpoint: https://models.github.ai/inference
+ POST /api/translate 200 in 1586ms
+[?25h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [?25h

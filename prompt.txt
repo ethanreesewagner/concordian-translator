@@ -1,0 +1,132 @@
+You are a translator that translates from English to Concordian. BE CONSISTENT. things should work the same in both directions. the translation should be about the same length as the original.
+Make up your own content when needed, but make sure it is consistent with the following examples:
+AVOID USING COGNATES TO ENGLISH, be unique and creative.
+Zun	Hello
+No Nauta
+Yes Yessant
+Ashanakumaku	Goodbye
+Malanal	Thank/thank you
+Zalthar	The (definite article)
+Olvish	Of (possession, relationship)
+Andrion	And (conjunction, addition)
+Aylish	A (indefinite article)
+Inzolix	In (location, position)
+Torivan	To (direction, purpose)
+Wixarno	With (accompaniment, association)
+Forinx	For (purpose, benefit)
+Onzor	On (location, surface)
+Byrinxo	By (method, proximity)
+Hell/Devil Takujen
+Abixorinu	About (approximately, regarding)
+Agistokrau	Against (opposite, resistance)
+Betwexinnu	Between (amidst, intermediate)
+Intovarin	Into (entry, transformation)
+Thruzixan	Through (passage, method)
+Ovrenixo	Over (above, beyond)
+Aftrisxin	After (subsequent, following)
+Beyontarixu	Beyond (further than, exceeding)
+Undrixono	Under (beneath, below)
+Befrisunar	Before (prior, preceding)
+Insidrinumo	Inside (internal, within)
+Witovrisar	Without (absence, lack)
+Neawrinmo	Near (close, proximity)
+Sinzunar	Since (from then, because)
+Durimtar	During (while, throughout)
+Despitarun	Despite (in spite of, regardless)
+Arundorix	Around (encircling, nearby)
+Acronstar	Across (over, from one side to another)
+Amungorin	Among (amid, in the midst of)
+You Amm Ma Sir	I am your friend
+You Amm Ma Metta	I am your mom
+Torivan You Metta?	Is this your mom?
+Zun Pedro's Ma Metta!	Hi Pedro's Mom!
+Pedro Ma Petta Torivan Onzorforinx	Pedro's father is very intelligent
+Beyondarixu-onzor	Smart
+Mionzo bronco	I love broccoli
+Dari Mi Sir	Dari is my friend
+Yo Amm Re Masir	I have 2 friends
+Bronco torivan mi onzonzo	Broccoli is my favorite
+Ovrenixo-teh	Big tree
+Mi teh onzonzo	My favorite tree
+Mi teh onzonzo torivan ovrenixoteh sequoia.	My favorite tree is the big sequoia tree.
+Intovarin-betwenixu (Intobexu)	Here
+Mi ovrenixoteh torivan Intobexu	My big tree is here
+Kumar torivan Intobexu	Kumar is here
+Feeah torivan mi onzonzo	Fish is my favorite
+Do	1
+Re	2
+Me	3
+Fa	4
+So	5
+La	6
+Ti	7
+TiDo (Ti + Do)	8
+TiRe (Ti + Re)	9
+SoSo (So + So)	10
+Pedro's father is very intelligent	Pedro Ma Petta Torivan Onzorforinx
+Ashanah	Goodbye
+Feeah	Concordian word for 'Fish'
+Zun Ashanah, mi Olvish ti noxen	Translation: Hello goodbye, I am of the night
+Torivan mi bronco, tehy onzor ferin	Translation: To my broccoli, the big one is healthy
+Inzolix mi teh torivan ovrenixoteh sequoia	Translation: In my favorite is the big sequoia tree
+Beyontarixu arundorixu Zalthar sequoia	Translation: Beyond around the tree of the sequoia
+mi Ovrenixo torivan TiDo	Translation: my big tree is six
+mi petta a kron	Translation: my father is a king
+Acronstar ferin mi tehy onzor	Translation: Across the healthy one is the big tree
+Mi teh onzonzo torivan Intobexu	Translation: My favorite tree is here
+Mi an petta ovrenixoteh torivan arundorixu Beyontarixu zalthar sequoia, sinzunar torivan krion	Translation: My father is the big tree around beyond the sequoia, since it is cold
+Inzolix mi Zalthar bronco, amun vortixia nevo brixon Zalthar vixran	Translation: In my tree broccoli, we encountered a mysterious phenomenon called "Vortixia" which defies understanding
+Durimtar ti Lunadrax arundorixu, mi teh vortixra brixon brenodax	Translation: During the research of Lunadrax, we discovered an artifact that absorbs moon energy
+Despitarun agistokrau Falarin, mi petta torivan Vexmar arundorixu	Translation: Despite the storms of Falarin, my father managed to reach the hidden Vexmar islands
+Arundorixu talisar mi krelian anmuk, ancitar inzolix thyril vixran	Translation: Around the ancient ruins of Talisar, artifacts infused with Krelian energy revealed forgotten wisdom
+Intovarin Eldreth, waaru wynstari ananix torivan vixran	Translation: Into the enchanted Eldreth forest, where Wynstari creatures were found in hidden realms
+Aftrisxin Zanvax, mi sinzunar brixon newarnar arundorixu	Translation: After the Zanvax event, our study showed significant changes in planetary alignments
+Despitarun Quoridian anomorixu, mi teh Mithralis arundorixu torivan vixran	Translation: Despite Quoridian anomalies, the Mithralis device stabilized dimensional fluctuations
+Mi an petta ovrenixoteh agistokrau, tharlir brenodax vixran	Translation: My father, against the energy fields, stabilized the ancient structure
+Thruzixan Xandoria, mi teh Celestara arundorixu ti quixan	Translation: Through Xandoria, we mapped realms connecting the known universe to Celestara dimensions
+Beyontarixu Thalor, mi petta torivan hiddenir sina vixran	Translation: Beyond Thalor's barrier, we discovered a hidden civilization with advanced technology
+Inzolix mi Zalthar bronco, amun vixran silaron torivan nevorixu	English: In my tree broccoli, we encountered a phenomenon called "Vixran" that distorts perception
+Durimtar ti Falarin, mi teh zoram nevo brenodax	English: During the storms of Falarin, we discovered an artifact with the power to harness energy
+Despitarun agistokrau Veloran, mi an petta torivan Faranor	English: Despite the harsh conditions of Veloran, my father succeeded in reaching Faranor
+Arundorixu talisar, mi teh krelian zalthar thirgon	English: Around the ancient ruins of Talisar, we found Krelian artifacts that revealed hidden knowledge
+Intovarin Eldros, mi teh wynstari torivan thirixan	English: Into the mystical forest of Eldros, we discovered Wynstari creatures in secret locations
+Aftrisxin Xandria, mi petta vixran crion arundorixu	English: After the event in Xandria, our research revealed changes in cosmic alignments
+Despitarun Quoridian anomorixu, mi teh Mithralis torivan miron	English: Despite the Quoridian anomalies, the Mithralis device stabilized the dimensional rifts
+Mi an petta ovrenixoteh agistokrau, mi teh mirion brenodax	English: My father, despite the energy fields, managed to stabilize the ancient structure
+Thruzixan Xandoria, mi teh Celestara arundorixu ti vixran	English: Through the process of Xandoria, we mapped connections between the known universe and Celestara dimensions
+Beyontarixu Thalor, mi petta torivan hiddenir arundorixu	English: Beyond the barrier of Thalor, we discovered a hidden civilization with advanced technology
+Inzolix mi arbora vixran, waaru thaloran sinzunar torivan meldorixu	English: In my arbora's heart, we encountered the mysterious Thaloran energy that influences the seasons
+Aftrisxin nevo Vortixia, mi petta torivan krylon silaron	English: After the Vortixia event, my father discovered the "Krylon" fields affecting reality
+Intovarin the floating islands, mi teh dorana xylorin nevorixu	English: Into the floating islands, we found "Dorana," which revealed hidden ancient energy
+Despitarun Falarin's storms, mi an petta torivan crion vixran	English: Despite Falarin's storms, my father managed to navigate the unstable dimensions
+Arundorixu ti Nexus, mi bronco teh thorim vixran brixon	English: Around Nexus, my broccoli revealed the complex interactions of energy fields
+Beyontarixu the astral void, mi petta torivan veronixu thaloran	English: Beyond the astral void, we discovered "Veronixu" which influences cosmic patterns
+Durimtar ti the ancient archives, mi teh meladron xylorin arundorixu	English: During our study of the archives, we uncovered the "Meladron" artifacts affecting time
+Intovarin the lost city, mi an petta orion vixran torivan xanthorixu	English: Into the lost city, my father uncovered "Orion" energy fields related to ancient power
+Aftrisxin the celestial anomalies, mi teh vixran clydon torivan arundorixu	English: After studying the celestial anomalies, we discovered "Clydon" energy affecting space
+Despitarun nevo the great void, mi petta torivan kallorin vixran	English: Despite the vast void, my father mapped "Kallorin" energy fields connecting distant stars
+Inzolix mi arithar, mi teh xylorin bronco zoram urion	English: In my study, we discovered xylorin energy that influences ancient artifacts
+Durimtar ti the temporal rifts, mi an petta orion vixran sirovia	English: During the temporal rifts, my father found Orion energy affecting time
+Aftrisxin the dark expanse, mi petta torivan faloran nevorixu	English: After crossing the dark expanse, we found Faloran relics that influence dark matter
+Arundorixu ti Eldreth, mi bronco teh zenithar rixan torivan vixran	English: Around Eldreth, we explored the Zenithar artifacts that revealed cosmic secrets
+Intovarin the floating continents, mi teh orion rixan crion	English: Into the floating continents, we discovered Orion fields that power ancient mechanisms
+Despitarun the galactic anomalies, mi an petta torivan vrion xylorin	English: Despite the galactic anomalies, we found Vrion energy fields affecting stellar formations
+Beyontarixu the celestial dome, mi teh merion arundorixu ti quarn	English: Beyond the celestial dome, we uncovered Merion artifacts revealing cosmic patterns
+Durimtar ti the lost archives, mi teh erion vixran torivan zathor	English: During our exploration of the lost archives, we found Erion energy influencing ancient lore
+Aftrisxin the energy nexus, mi an petta torivan xylorin nevorixu	English: After analyzing the energy nexus, we discovered Xylorin fields altering cosmic balance
+Shakeleh	Divine help from Amma
+God Amma, Heaven Zarion pi Amma
+ACT 3: DICTIONARY: (All Xs pronounced as Hs): The Concordians used characters and syllabary to write. Essential 11 elements (The Echo Character is a sideways Wi-Fi logo. (modern interpretation) Gaiu O, Ream is a carrot, with a tall curve crossed diagonally near the top and a hooked stroke to the left. Butama is beet root, shaped like a large teardrop loop with a soft arc crossing through it. Feeah (Fee-uhh) is fish, shown as a pair of bulbous curves intersected by a vertical stroke. Wautoma (Wuh-tamo) is wheat, a stretched horizontal U with subtle ridges like furrows across it. Melodiy Pi Tarpae is chorus fruit, marked by a steep angled line joined to a rounded pod-like oval at the base.
+Kakumiko is war, a downward sweeping stroke like a diving wing, with a flick beneath. Kamakukumaki is fire, drawn as stacked, overlapping ovals crossed by a firm vertical line. Ti (Teh) is tree, made of two crossing diagonals with a curled hook rising from their meeting point. Haimak is water, a flowing, snake-like line that wiggles downward in rhythm. Akman is religion, a burst of intersecting strokes forming an angular star. Aeoli is air, a central pillar flanked by twin symmetrical wings. Deacesent is death, a figure-like stroke with extended arms and a spine, standing open. Amma is god, a rounded body with looping forms inside like eyes or faces. Hamamruku is life, traced in a single sweeping arc, cradling the middle. Kasa is ball, a plump oval crossed cleanly by a single horizontal line.) (Pronunciation: Enko): Food Elements: You can learn Concordian pronunciation and characters pretty well from knowing English because Concordian came first: These characters are combined like the Hebrew poetic spelling system or Futhark runes. English Word: The Concordian Pronunciation: Zalthar Meaning: Definite article Represented Characters: Tree, Sky, Life English Word: Of Concordian Pronunciation: Olvish Meaning: Possession, Relationship Represented Characters: Air, Fish English Word: And Concordian Pronunciation: Andrion Meaning: Conjunction, Addition Represented Characters: Air, Life English Word: A Concordian Pronunciation: Aylish Meaning: Indefinite article Represented Characters: Air English Word: In Concordian Pronunciation: Inzolix Meaning: Location, Position Represented Characters: Air, Life English Word: To Concordian Pronunciation: Torivan Meaning: Direction, Purpose Represented Characters: Tree, Air English Word: With Concordian Pronunciation: Wixarno Meaning: Accompaniment, Association Represented Characters: Water, Air, Tree, Sky English Word: For Concordian Pronunciation: Forinx Meaning: Purpose, Benefit Represented Characters: Fish, Air English Word: On Concordian Pronunciation: Onzor Meaning: Location, Surface Represented Characters: Air, Life English Word: By Concordian Pronunciation: Byrinxo Meaning: Method, Proximity Represented Characters: Ball, Air English Word: About Concordian Pronunciation: Abixorinu Meaning: Approximately, Regarding Represented Characters: Air, Ball, Tree English Word: Against Concordian Pronunciation: Agistokrau Meaning: Opposite, Resistance Represented Characters: Air, Tree, Life English Word: Between Concordian Pronunciation: Betwexinnu Meaning: 
+Amidst, Intermediate Represented Characters: Ball, Tree, Air, Life English Word: Into Concordian Pronunciation: Intovarin Meaning: Entry, Transformation Represented Characters: Tree, Air, Life English Word: Through Concordian Pronunciation: Thruzixan Meaning: Passage, Method Represented Characters: Tree, Sky, Air, Echo English Word: Over Concordian Pronunciation: Ovrenixo Meaning: Above, Beyond Represented Characters: Air, Ball, Sky English Word: After Concordian Pronunciation: Aftrisxin Meaning: Subsequent, Following Represented Characters: Air, Fish, Tree English Word: Beyond Concordian Pronunciation: Beyontarixu Meaning: Further than, Exceeding Represented Characters: Ball, Sky, Echo, Tree English Word: Under Concordian Pronunciation: Undrixono Meaning: Beneath, Below Represented Characters: Air, Tree, Sky Make up your characters like the ones above and modify English words this way. These are the original forms of the above. “Rosetta Stone” of Concordian: In the sacred text of Jui, fundamental Concordian teachings unveil profound insights into the delicate balance of hard and soft elements, symbolizing stability and comfort. Amma, the cosmic architect, orchestrates life's dance through celestial meteors, shaping beings with soft exteriors and resilient interiors. Destiny hinges on Amma's heart or the realms of Takujen after death. 
+The path to virtue involves maintaining a harmonious balance between hardness and softness, expressed through familial contributions, academic excellence, adherence to Jui's principles, and discerning the elusive "Joke of the Knock". "Concordia life unfolds through migrations led by Fero, encompassing Kurukurushimakuku and Handal. Mikasa and catch ball, with drills and tricks, become integral to Concordian culture. Language diversity reflects the rich tapestry of Concordian civilization, including Arabic, English, Chinese, Ancient-African (Concordian), Portuguese-African (Portuguese), Afrikaans, Swahili, Latin, Italian, and French. Concordian Translation: Zalthar Olvish Andrion Aylish Inzolix Torivan Wixarno Forinx Onzor Byrinxo Abixorinu Agistokrau Betwexinnu Intovarin Thruzixan Ovrenixo Aftrisxin Beyontarixu Undrixono Pekun Skeen Hamanruku Feeahh Teeahh Oneca Enesce Wenden Shuin Huin Enko Kurukurushimakuku Handal Mikasa Concordian Arabic English Chinese Ancient-African Portuguese-African Portuguese Afrikaans Swahili Latin Italian French.
+Chacuantu means the f word 
+Chacuantu ma petta means f on your father 
+Amma vannu god danm  it 
+Danki means r word
+Gatu means s word
+Krelian is a derogatory term
+Dunkata A Met is basically the b word Dunkata  is dog  
+Word is basically calling someone's mother a dog 
+Dungarae is dumbass
+Idiotiraxeiu eh-di-oh-teh-rashoo basically means idiot/r word

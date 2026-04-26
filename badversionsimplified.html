@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Concordian Translator - Single File Edition</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f1f1f6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: white;
+            max-width: 720px;
+            margin: 40px auto;
+            box-shadow: 0 2px 10px #0001;
+            padding: 2em;
+            border-radius: 12px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            color: #4328de;
+        }
+        h2 {
+            font-size: 1.2em;
+            margin-top: 2em;
+            color: #312078;
+        }
+        textarea, input, select {
+            width: 100%;
+            font-size: 1.1em;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            box-sizing: border-box;
+            background: #f7f7fb;
+        }
+        button {
+            background: #4328de;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 0.7em 1.8em;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 6px;
+            margin-bottom: 12px;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #24166a;
+        }
+        .output {
+            background: #e9e7ff;
+            padding: 1em;
+            border-radius: 6px;
+            font-family: "Fira Mono", monospace, monospace;
+            margin-top: 1em;
+            min-height: 36px;
+        }
+        .footer {
+            text-align: center;
+            color: #878787;
+            font-size: 0.97em;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Concordian Translator</h1>
+        <form id="translatorForm" autocomplete="off">
+            <label for="inputText"><strong>Enter text to translate:</strong></label>
+            <textarea id="inputText" rows="3" placeholder="Type here..."></textarea>
+
+            <label for="direction"><strong>Translation direction:</strong></label>
+            <select id="direction">
+                <option value="en-to-con">English &rarr; Concordian</option>
+                <option value="con-to-en">Concordian &rarr; English</option>
+            </select>
+
+            <button type="submit">Translate</button>
+        </form>
+
+        <div id="outputArea" class="output" readonly></div>
+
+        <h2>About Concordian</h2>
+        <p>
+            Concordian is an artificial constructed language with simple rules.
+            This tool translates words between English and Concordian forms according to the mapping below.
+        </p>
+        <ul style="margin-bottom: 3em;">
+            <li><b>Phonetic spelling:</b> Letters are replaced by consistent equivalents.</li>
+            <li><b>Special vocabulary:</b> Some common words are mapped directly for flavor.</li>
+        </ul>
+        <h2>Word List & Letter Mapping</h2>
+        <p>
+            <code>a&rarr;ka</code> <code>b&rarr;tu</code> <code>c&rarr;si</code> <code>d&rarr;da</code>
+            <code>e&rarr;re</code> <code>f&rarr;fi</code> <code>g&rarr;gi</code>
+            <code>h&rarr;ha</code> <code>i&rarr;ni</code> <code>j&rarr;jo</code> <code>k&rarr;ku</code>
+            <code>l&rarr;li</code> <code>m&rarr;ma</code> <code>n&rarr;ne</code>
+            <code>o&rarr;lo</code> <code>p&rarr;pa</code> <code>q&rarr;qu</code> <code>r&rarr;ri</code>
+            <code>s&rarr;sa</code> <code>t&rarr;ta</code> <code>u&rarr;mu</code> <code>v&rarr;va</code>
+            <code>w&rarr;wa</code> <code>x&rarr;xa</code> <code>y&rarr;ya</code> <code>z&rarr;za</code>
+        </p>
+        <p>
+            <b>Special vocabulary:</b> hello→salena, world→verda, friend→samanu, yes→aya, no→inau, thank you→areku, peace→konrda
+        </p>
+        <div class="footer">
+            Single file version &ndash; 2024 &bull; <a href="https://github.com" target="_blank" rel="noopener" style="color:#322;">GitHub</a>
+        </div>
+    </div>
+    <script>
+    // --- Concordian Translator Core ---
+    // Letter mapping, both ways
+    const enToConMap = {
+        "a": "ka", "b": "tu", "c": "si", "d": "da", "e": "re",
+        "f": "fi", "g": "gi", "h": "ha", "i": "ni", "j": "jo",
+        "k": "ku", "l": "li", "m": "ma", "n": "ne", "o": "lo",
+        "p": "pa", "q": "qu", "r": "ri", "s": "sa", "t": "ta",
+        "u": "mu", "v": "va", "w": "wa", "x": "xa", "y": "ya",
+        "z": "za"
+    };
+    // Reverse mapping for decoding
+    const conToEnMap = {};
+    for (const [en, con] of Object.entries(enToConMap)) {
+        conToEnMap[con] = en;
+    }
+
+    // Special vocabulary, both ways
+    const specialWords = {
+        "hello": "salena",
+        "world": "verda",
+        "friend": "samanu",
+        "yes": "aya",
+        "no": "inau",
+        "thank you": "areku",
+        "peace": "konrda"
+    };
+    const reverseSpecialWords = {};
+    for (const [en, con] of Object.entries(specialWords)) {
+        reverseSpecialWords[con] = en;
+    }
+
+    function isAlpha(ch) {
+        return /^[a-z]$/i.test(ch);
+    }
+
+    function translateEnToCon(text) {
+        let output = [];
+        // Handle "thank you" as a phrase before splitting
+        let textWithPhrases = text.replace(/thank you/gi, match => {
+            // preserve original case of first letter
+            return specialWords["thank you"];
+        });
+        for (let word of textWithPhrases.split(/\b/)) {
+            let w = word.toLowerCase();
+            if (specialWords[w]) {
+                // preserve capitalization
+                output.push(preserveCap(word, specialWords[w]));
+            } else {
+                // Translate char by char
+                let result = "";
+                for (let i = 0; i < word.length; ++i) {
+                    let ch = word[i];
+                    let isUpper = ch >= 'A' && ch <= 'Z';
+                    let lower = ch.toLowerCase();
+                    if (enToConMap[lower]) {
+                        let mapped = enToConMap[lower];
+                        result += isUpper ? mapped[0].toUpperCase() + mapped.slice(1) : mapped;
+                    } else {
+                        result += ch;
+                    }
+                }
+                output.push(result);
+            }
+        }
+        return output.join("");
+    }
+
+    // Given a Concordian word returns translated to English
+    function translateConToEn(text) {
+        // Replace special vocab first
+        let output = "";
+        // Tokenize ignoring punctuations for vocab
+        let words = text.split(/\b/);
+        for (let word of words) {
+            let wl = word.toLowerCase();
+            if (reverseSpecialWords[wl]) {
+                output += preserveCap(word, reverseSpecialWords[wl]);
+            } else {
+                // Letter decoding
+                let decoded = "";
+                let i = 0;
+                while (i < word.length) {
+                    let chunk = word.slice(i, i+2).toLowerCase();
+                    if (conToEnMap[chunk]) {
+                        let letter = conToEnMap[chunk];
+                        // preserve casing of first letter of chunk
+                        if (word[i] && /[A-Z]/.test(word[i])) {
+                            letter = letter.toUpperCase();
+                        }
+                        decoded += letter;
+                        i += 2;
+                    } else {
+                        decoded += word[i];
+                        i += 1;
+                    }
+                }
+                output += decoded;
+            }
+        }
+        return output;
+    }
+
+    // Capitalization: if s (source) starts with upper, map t[0] to upper
+    function preserveCap(s, t) {
+        if (/^[A-Z]/.test(s)) {
+            return t[0].toUpperCase() + t.slice(1);
+        }
+        return t;
+    }
+
+    // UI plumbing
+    document.getElementById("translatorForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+        let input = document.getElementById("inputText").value.trim();
+        let dir = document.getElementById("direction").value;
+        let result = "";
+        if (!input) {
+            result = "<em>Enter text above.</em>";
+        } else if (dir === "en-to-con") {
+            result = translateEnToCon(input);
+        } else {
+            result = translateConToEn(input);
+        }
+        document.getElementById("outputArea").innerText = result;
+    });
+
+    // Autofocus on textarea
+    document.getElementById("inputText").focus();
+    </script>
+</body>
+</html>

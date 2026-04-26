@@ -1,0 +1,14 @@
+Vercel CLI 48.1.6
+Retrieving project…
+The `name` property in vercel.json is deprecated (https://vercel.link/name-prop)
+Deploying ethans-projects-156edd6e/concordian-translator
+Uploading [--------------------] (0.0B/253.3KB)
+Uploading [=====---------------] (67.7KB/253.3KB)
+Uploading [==========----------] (136.3KB/253.3KB)
+Uploading [===============-----] (200.3KB/253.3KB)
+Uploading [====================] (253.3KB/253.3KB)
+Inspect: https://vercel.com/ethans-projects-156edd6e/concordian-translator/Eiz9emJwneQEji6JiMvtq14R155H [2s]
+Production: https://concordian-translator-gyw9ihvji-ethans-projects-156edd6e.vercel.app [2s]
+https://concordian-translator-gyw9ihvji-ethans-projects-156edd6e.vercel.appBuilding
+Building
+Completing
