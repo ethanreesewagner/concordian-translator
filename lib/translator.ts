@@ -22,6 +22,9 @@ const DICTIONARY_ENTRIES: [string, string][] = [
   ["thanks", "Malanal"],
   ["foslium", "Murder"],
   ["dick", "kior"],
+  ["chorus fruit","melodi pi tarpae"],
+  ["music","melodi"],
+  ["fruit","tarpae"],
 
   // Articles & prepositions
   ["the", "Zalthar"],
