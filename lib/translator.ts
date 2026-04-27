@@ -25,6 +25,7 @@ const DICTIONARY_ENTRIES: [string, string][] = [
   ["chorusfruit","melodi pi tarpae"],
   ["music","melodi"],
   ["fruit","tarpae"],
+  ["chess", "comcordia"],
 
   // Articles & prepositions
   ["the", "Zalthar"],
