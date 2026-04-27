@@ -20,6 +20,8 @@ const DICTIONARY_ENTRIES: [string, string][] = [
   ["bye", "Ashanah"],
   ["thank you", "Malanal"],
   ["thanks", "Malanal"],
+  ["foslium", "Murder"],
+  ["dick", "kior"],
 
   // Articles & prepositions
   ["the", "Zalthar"],
